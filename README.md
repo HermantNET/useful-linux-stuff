@@ -108,6 +108,22 @@ Using notify-send as an example
 
 ---
 
+### .inputrc
+##### Autocomplete and case insensitive stuff
+
+```
+$include /etc/inputrc
+set completion-ignore-case on
+set show-all-if-ambiguous on
+set visible-stats on
+set show-all-if-unmodified on
+set menu-complete-display-prefix on
+"\t": menu-complete
+"\e[Z": menu-complete-backward
+```
+
+---
+
 ### Autostart applications
 ##### dapper
 
