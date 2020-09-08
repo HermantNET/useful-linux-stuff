@@ -195,3 +195,10 @@ color7 #ffc88a
 color15 #f9f9fe
 selection_foreground #262626
 ```
+
+---
+
+### Virt manager
+##### Installing
+
+https://gist.github.com/diffficult/cb8c385e646466b2a3ff129ddb886185
