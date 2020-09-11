@@ -202,3 +202,22 @@ selection_foreground #262626
 ##### Installing
 
 https://gist.github.com/diffficult/cb8c385e646466b2a3ff129ddb886185
+
+--- 
+### BlackArch
+##### Enable Networking
+
+If you installed BlackArch and networking/internet wasn't working, you can try
+
+```
+systemctl enable dhcpcd && systemctl start dhcpcd
+```
+
+If that causes issues with pacman you can disable and stop it, then try netctl instead.
+
+If netctl is giving you an error when trying to start a profile, try this.
+
+```
+ip link set wlan0 down
+netctl start profile
+```
