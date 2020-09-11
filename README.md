@@ -203,6 +203,12 @@ selection_foreground #262626
 
 https://gist.github.com/diffficult/cb8c385e646466b2a3ff129ddb886185
 
+##### VM image location
+
+```
+/var/lib/libvirt/images/
+```
+
 --- 
 ### BlackArch
 ##### Enable Networking
