@@ -1,3 +1,13 @@
+### pacman
+
+##### Fix db locked
+
+```
+sudo rm /var/lib/pacman/db.lck
+```
+
+---
+
 ### bspwm
 
 ##### Layouts
@@ -208,6 +218,12 @@ https://gist.github.com/diffficult/cb8c385e646466b2a3ff129ddb886185
 ```
 /var/lib/libvirt/images/
 ```
+
+##### Resizing a VM's storage
+
+https://sandilands.info/sgordon/increasing-kvm-virtual-machine-disk-using-lvm-ext4
+
+Don't forget the last step using resize2fs
 
 --- 
 ### BlackArch
