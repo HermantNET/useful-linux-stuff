@@ -244,6 +244,11 @@ If netctl is giving you an error when trying to start a profile, try this.
 ip link set wlan0 down
 netctl start profile
 ```
+
+##### Masscan is broken!
+
+If masscan doesn't work (gets stuck on "waiting to close"), build it from source and add it to `/usr/local/bin` (call it something like mscan).
+
 ---
 
 ### Spectrwm config
