@@ -337,3 +337,10 @@ bind[ws_10] = Mod+F10
 
 #autorun = ws[1]: xterm
 ```
+
+---
+
+### PulseAudio
+##### Audio in one app is muted when another makes a sound
+
+https://wiki.archlinux.org/index.php/PulseAudio/Troubleshooting#Starting_an_application_interrupts_other_app.27s_sound
